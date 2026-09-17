@@ -7,6 +7,6 @@ print("The script creates a connection to a database called school.db, stored in
 # Open a connection to school.db (SQLite creates the file if needed).
 connection = sqlite3.connect("school.db")
 print("Database connected!")
-# Close the connection so the file is safely released. :)
+# Close the connection so the file is safely released. :D
 connection.close()
 print("Database closed!") 

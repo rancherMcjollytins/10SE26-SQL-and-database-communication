@@ -20,8 +20,8 @@ CREATE TABLE IF NOT EXISTS students (
 cursor.execute("DELETE FROM students")
 
 # Insert rows using placeholders (?) to safely pass Python values.
-cursor.execute("INSERT INTO students (name, year_group) VALUES (?, ?)", ("Ava", 10))
-cursor.execute("INSERT INTO students (name, year_group, criminal_record) VALUES (?, ?, ?)", ("Leo", 63, "Wanted for 3 counts of Assault and Battery on police and 2 counts of Domestic Violence"))
+cursor.execute("INSERT INTO students (name, year_group) VALUES (?, ?)", ("Ava", 11))
+cursor.execute("INSERT INTO students (name, year_group, criminal_record) VALUES (?, ?, ?)", ("Leo", 63, "Wanted for Terrorism"))
 
 # Commit saves all changes made by INSERT/DELETE/CREATE statements.
 connection.commit()

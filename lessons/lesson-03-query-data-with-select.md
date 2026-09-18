@@ -61,7 +61,7 @@ connection.close()
 
 1. Type the script yourself in VS Code (do not paste the full block at once).
 2. Run the script and read the output.
-3. Change the query to `SELECT name FROM students`.
+3. Change the query to `SELECT name FROM students`.ek jhgG 
 4. Add one more student in the database with your own name choice and run again.
 5. Before each run, predict how many rows/columns you expect, then compare with actual output.
 1. Run the script and read the output.
